@@ -1,0 +1,88 @@
+body{
+ /* background-image: url(./img/фон3.jpg); */
+  background-color: rgb(0, 0, 0);
+  overflow-y:hidden;  
+overflow-x:hidden;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.loco{
+  margin-left: 70px;
+  font-size: 50px;
+  font-family: 'Noto Sans Avestan', sans-serif;
+  color: rgb(192, 8, 8);
+}
+
+.footer__buttons{
+  font-family: 'Noto Sans Avestan', sans-serif;
+  padding: 0px 20px;
+  color: rgb(211, 211, 211);
+  text-decoration: none;
+  font-size: 20px;
+}
+#red{
+  color: rgb(211, 211, 211);
+}
+.footer__buttons_mar{
+ display: flex;
+ align-items: center;
+  /* margin-left: 700px;   */
+}
+.footer__buttons:hover{
+color: red;
+transition: 1s;
+
+}
+/*  */
+#red:hover{
+color: white;
+transition: 1s;
+}
+
+.shine-button {
+  font-size: 35px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 40px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #ff0000;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ff0000;
+  transition: .2s ease-in-out;
+}
+.shine-button:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.shine-button:hover {
+  background: #000000;
+  color: #fff;
+}
+.shine-button:hover:before {
+  height: 100%;
+  left: 150px;
+  transition: .5s ease-in-out;
+}
+.buttons{
+  margin: 5% 5%;
+}
+
+.fon__animeihsen{
+  position: absolute;
+  margin-top: -100px;
+}
